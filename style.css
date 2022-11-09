@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+
+
+}
+
+#home-section {
+    background-color:#231ea0;
+    height: 150vh;
+    width: 100%;
+    padding: 30px 70px;
+    background-image: url(assets/overlay.png);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    width: 130px;
+    height: 30px;
+}
+
+ul>li {
+    list-style: none;
+
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    text-transform: capitalize;
+    color: #c1bffd !important;
+
+}
+
+.menu-item li:hover {
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttons {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-container {
+    width: 15%;
+}
+
+.buttons>button:first-child {
+    color: #c1bffd !important;
+    background-color: transparent;
+    border: none;
+    font-size: large;
+    text-transform: capitalize;
+}
+ 
+.buttons>button:hover {
+    cursor: pointer;
+}
+
+.buttons>button:nth-child(2) {
+    color: #fff;
+    background-color: #726df5;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    text-transform: capitalize;
+}
+.first-child
+{
+ color: #fff;
+ font-size: 250%;
+ text-transform: capitalize;
+ align-items: center;
+ margin-top: 10rem;
+ margin-bottom: 2rem;
+}
+.nth-child
+{
+    color:#a09cde;
+    font-size: 100%;
+    text-transform: capitalize;
+    align-items: center; 
+    margin-bottom: 5%;
+}
+.hero-button
+{
+    background-color: #fff;
+    color: #fff;
+    border-radius: 25rem;
+    box-sizing: border-box;
+
+}
+
+
+
+
